@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(191.56deg, rgba(255, 255, 255, 0) 13.15%, rgba(113, 150, 80, 0.25) 52.46%, #508070 97.64%, #508070 97.64%);
+}
+section {
+  main-height: 100vh;
+  padding: 0 9%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.carabayar {
+  display: flex;
+  align-items: center;
+  justify-nontent: center;
+  background: url(foto/header1.png) no-repeat;
+  /* background: url(foto/background2.png) no-repeat; */
+  background-size: cover;
+  background-position: center;
+}
+
+.carabayar .image img {
+  width: 45vw;
+  padding-top: 12rem;
+}
+
+.data {
+  /* display: flex; */
+  /* align-items: center; */
+  justify-nontent: center;
+  background: url(foto/background1.png) no-repeat;
+  background-size: 23rem;
+  background-position: left;
+}
+
+.data .box-container {
+  display: flex;
+  align-items: center;
+  justify-nontent: center;
+  flex-wrap: wrap;
+
+  /* margin-top: 10rem; */
+}
+.data .box-container {
+  flex: 1 1 10rem;
+  background: #fff;
+  border-radius: 3rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+  /* margin-bottom: 10rem; */
+  padding: 1rem;
+  /* border-radius: 0.5rem; */
+  /* background-opacity: 0.6; */
+}
+
+.data .box-container .box {
+  flex: 1 1 10rem;
+  margin-left: 3rem;
+  margin-right: 16rem;
+  padding: 2rem 1rem;
+}
+.data .box-container .box-1 {
+  background: #f57703;
+  border-radius: 2rem;
+  padding: 5rem 3rem;
+}
+
+.bayar {
+  /* display: flex;
+  margin: 3rem;
+  align-items: center;
+  justify-nontent: center; */
+}
+
+.bayar .heading {
+  background: #f57703;
+  border-radius: 3rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  padding: 0.5rem;
+}
+
+.bayar .box-container {
+  display: flex;
+  align-items: center;
+  justify-nontent: center;
+  flex-wrap: wrap;
+  margin-bottom: 14rem;
+}
+
+.bayar .box-container .box {
+  flex: 1 1 30rem;
+  background: linear-gradient(263.37deg, #709652 17.3%, rgba(81, 129, 112, 0.72) 87.99%);
+  border-radius: 3rem;
+  border: 0.7rem solid #ffffff;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  /* margin: 1.5rem; */
+  margin-left: 6rem;
+  margin-right: 6rem;
+  /* margin-left: 1.5rem; */
+  padding: 3rem 2rem;
+}
+
+.bayar .box1-container .box1 .kotak {
+  border-radius: 0px 30px 30px 30px;
+}
+
+@media (max-width: 991px) {
+  section {
+    padding: 0 3%;
+    padding-top: 22rem;
+    padding-bottom: 11rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carabayar {
+    flex-flow: colomn-reverse;
+  }
+
+  .carabayar .image img {
+    width: 100%;
+    padding-top: 6rem;
+  }
+}
+
+/* untuk animasi kunci float */
+/* @keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-3.5rem);
+  }
+} */
